@@ -1,0 +1,17 @@
+.dashboard-holy-grail {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "nav main aside"
+    "footer footer footer";
+  grid-template-columns: 200px 1fr 240px;
+  gap: 16px;
+  min-height: 60vh;
+  padding: 16px;
+  box-sizing: border-box;
+}
+.dg-header { grid-area: header; background:#0b5; padding:12px; border-radius:4px }
+.dg-nav { grid-area: nav; background:#eef; padding:12px; border-radius:4px }
+.dg-main { grid-area: main; background:#fff; padding:12px; border-radius:4px }
+.dg-aside { grid-area: aside; background:#f7f7f7; padding:12px; border-radius:4px }
+.dg-footer { grid-area: footer; background:#ddd; padding:8px; border-radius:4px }
