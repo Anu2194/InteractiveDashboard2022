@@ -1,5 +1,6 @@
 import React from 'react';
 import './Dashboard.css';
+import Profile from './Profile';
 
 function Dashboard() {
   return (
@@ -10,7 +11,7 @@ function Dashboard() {
         <h2>Main content</h2>
         <p>Put your charts, widgets and visualizations here.</p>
       </main>
-      <aside className="dg-aside">Right sidebar<br />Info / Filters</aside>
+  <aside className="dg-aside"><Profile /></aside>
       <footer className="dg-footer">© 2025 My Dashboard</footer>
     </div>
   );
